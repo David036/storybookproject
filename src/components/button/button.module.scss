@@ -1,0 +1,42 @@
+button {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    &:hover{
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+    }
+}
+
+.medium {
+    padding: 10px 20px;
+    font-size: medium;
+}
+
+.large {
+    padding: 20px 40px;
+    font-size: large;
+    width: 250px;
+}
+
+.small {
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.square {
+    border-radius: 0px;
+}
+
+.link {
+    border:none;
+    color: rgb(56, 123, 199);
+    &:hover {
+        color: rgb(0, 110, 255);
+        background-color: transparent;
+        border: none;
+    }
+}
